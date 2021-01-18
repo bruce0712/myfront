@@ -19,6 +19,8 @@ vue实例有一个完整的生命周期，也就是从开始创建、初始化�
 
 ##### 生命周期示意图
 
+![image-20210118211143836](C:\Users\bruce\AppData\Roaming\Typora\typora-user-images\image-20210118211143836.png)
+
 ##### 异步请求适合在哪个生命周期调用
 
 官方给的实例时在mounted生命周期中调用，但实际上也可以在created生命周期中调用
