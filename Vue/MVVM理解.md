@@ -10,6 +10,8 @@ ViewModel层：把View层需要的数据暴露，并对View层的数据绑定声
 
 ![image-20210117214802389](G:\myfront\Vue\image-20210117214802389.png)
 
+
+
 #### MVVM的优缺点
 
 - 优点：

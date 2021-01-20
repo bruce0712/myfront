@@ -7,8 +7,7 @@ export default function create(Component, props) {
   // 实例创建
   // 作业：使用extend方式创建组件实例并挂载
   // extend方法返回的组件构造函数
-  // const Ctor = Vue.extend(Component)
-  // const comp = new Ctor()
+ 
   // const Ctor = Vue.extend(Component)
   // const comp = new Ctor({propsData:props})
   // comp.$mount();
