@@ -4,7 +4,7 @@
 
 > 跨站脚本攻击XSS（Cross Site Scripting),是最普遍的安全漏洞，通过向有安全漏洞的web网站运行非法的非本站的HTML标签和JavaScript脚本进行的一种攻击
 
-**XSS攻击方式分类**
+##### XSS攻击方式分类
 
 - 反射型：URL参数直接注入
 
@@ -40,7 +40,7 @@
 
   Dom型攻击和反射型类型类似，通过URL写入恶意脚本，区别是浏览器接受参数并且直接解析
 
- **XSS攻击危害**
+#####  XSS攻击危害
 
 - 获取页面数据
 - 获取用户Cookies
@@ -50,7 +50,7 @@
 - 偷取用户的秘密和登录态
 - 欺骗用户
 
-**XSS防御手段**
+##### XSS防御手段
 
 1. X-XSS-Protection
 
@@ -121,7 +121,7 @@
    response.addHeader("Set-Cookie", "uid=112; Path=/; HttpOnly")
    ```
 
-**相关资料**
+##### 相关资料
 
 # [前端安全系列（一）：如何防止XSS攻击？](https://tech.meituan.com/2018/09/27/fe-security.html)
 
