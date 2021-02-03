@@ -51,6 +51,8 @@ mounted(){
 beforeCreate,我是父组件 ----> created,我是父组件 --->  beforeMount,我是父组件 ---> beforeCreate,我是子组件
 ---> created,我是子组件 ---> beforeMount，我是子组件 --->  mounted，我是子组件 ---> mounted,我是父组件
 
+**组件的创建过程是自上而下的，挂载过程是自下而上的**
+
 **父子组件销毁顺序**
 
 ```js
